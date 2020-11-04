@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+/*Default CSS*/
+*{
+    margin: 0;
+    padding:0;
+}
+ul,ol{
+    list-style-type: none;
+}
+body{
+    font-family:Titillium Web;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+.section-padding{
+    padding-top: 120px;
+}
+img{
+    max-width: 100%;
+}
+/*Default CSS End*/
+
+/*Menu Area*/
+.main-menu{
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    top: 0;
+    margin-top: 50px;
+}
+.main-menu li{
+    display: inline-block;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.main-menu li a{
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.main-menu li a:hover{
+    background-color: #604669;
+    text-decoration: none;
+}
+/*Menu Area End*/
+
+
+
+
+/*Banner Area Start*/
+
+.banner{
+    background-color: #905CA1;
+    color: white;
+    height: 600px;
+}
+.banner div{
+    height: 100%;
+}
+.banner .col-md-10 {
+    height: auto;
+}
+
+.banner-content{
+    margin-top: 60px;
+}
+
+.button{
+    display: inline-block;
+    padding:15px 50px;
+    background-color: #E97D51;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-weight: semi-bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgba(17, 14, 14, 0.11);
+    transition: all 0.3s ease-in-out;
+}
+.button:hover,.button:focus{
+    background-color: #e06a3bd5;
+    text-decoration: none;
+    color: inherit;
+}
+/* Banner Area End */
+
+
+/* section Title Start */
+.section-title{
+    margin-bottom: 80px;
+}
+.section-title h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+}
+.section-title h2:after{
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 6px;
+    background-color: black;
+    opacity: 0.1;
+    top:35%;
+    left: 50%;
+    margin-left:-45px;
+    border-radius: 5px;
+
+}
+/* Section title end */
+
+/* Service area start */
+.service-wrap{
+    background-color: #28C1A4;
+    color: white;
+    height: auto
+}
+.col-lg-3 h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight:700;
+}
+.col-md-3 p{
+    margin-bottom: 60px;
+    font-weight: 300;
+}
+
+/* Team Wrap */
+.team-wrap{
+    background-color: #E7F1F8;
+    height: auto;
+}
+.role{
+    color:#50aaa4;
+    font-size: 18px;
+}
+.team-social i{
+    display: inline-blog;
+    height: 30px;
+    width: 30px;
+    background-color:#BED1DE;
+    border-radius: 50%;
+    padding-top: 8px;
+    margin-left: 5px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 100px;
+
+}
+.team-social i:hover{
+    color: black;
+}
+.col-lg-3 img{
+    border-radius: 50%;
+}
