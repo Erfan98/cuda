@@ -10,6 +10,6 @@ $('.our-skill').circleProgress({
 
   var mixer = mixitup('.item',{
     animation: {
-      duration: 300
+     duration: 300
     }
   });

@@ -223,3 +223,84 @@ button.mixitup-control-active{
     text-transform: uppercase;
     
 }
+
+/* Portfolio section Ends */
+/* Testimonial Section starts */
+.testimonial-wrap{
+    background-color: #D54980;
+    color: white;
+    height: auto;
+}
+.testimonial-wrap .col-lg-6{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonial-wrap .col-lg-6 img{
+    max-width: 15%;
+    position: absolute;
+}
+.testimonial-wrap .col-lg-6 .message{
+    margin-left: 100px;
+}
+.message p{
+    font-style: italic;
+}.message p:nth-child(3){
+    color:#ffdd99;
+    font-style: normal;
+}
+
+/* Testimonial Section Ends */
+
+
+/* Contact Start */
+.contact{
+    background-color:#3D5697 ;
+    color: white;
+    height: auto;
+}
+.contact-form input{
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: #283B6F;
+    border: none;
+    padding-left:20px;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.contact-form textarea{
+    outline: none;
+    width: 100%;
+    background-color: #283B6F;
+    border: none;
+    padding-left:20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+}
+#send{
+    margin-bottom: 40px;
+}
+/* contact Area End */
+/* footer area start */
+.footer{
+    background-color: #354D8C;
+}
+.footer li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.footer li a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+
+}
+.footer li a:hover{
+    color:#3e6ada;
+}
