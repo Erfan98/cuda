@@ -183,3 +183,43 @@ img{
     transform: translate(0,-50%);
     
 }
+
+/* Skill-wrap End */
+.portfolio-wrap{
+    background-color: #FEDC9D;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.filter-items button{
+    padding: 10px 30px;
+    background-color: #EAC889;
+    border:none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin:10px;
+
+}
+button.mixitup-control-active{
+    background-color: white;
+}
+.filter-items button:hover {
+    border:none;
+    background-color: white;
+}
+.filter-items button:focus{
+    outline: none;
+}
+.portfolio-items{
+    float: left;
+    margin-right: 10px;
+    margin-left: 3px;
+    margin-top: 50px;
+    transition: all 0.3s ease-in-out; 
+}
+.portfolio-items p{
+    text-align: center;
+    font-size: 18px;
+    margin: 30px;
+    text-transform: uppercase;
+    
+}

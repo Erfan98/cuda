@@ -7,3 +7,9 @@ $('.our-skill').circleProgress({
     console.log(progress);
   });
  
+
+  var mixer = mixitup('.item',{
+    animation: {
+      duration: 300
+    }
+  });
