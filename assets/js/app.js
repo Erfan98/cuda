@@ -14,6 +14,6 @@ $('.our-skill').circleProgress({
   });
 
   var typed = new Typed('.type', {
-    strings: ["A Programmer ^1000 ","A Observer ^1000 ","A Thinker ^1000 ","and Most Importantly^1000 ","A Human"],
+    strings: ["A Programmer ^1000 ","An Observer ^1000 ","A Thinker ^1000 ","and Most Importantly^1000 ","A Human"],
     typeSpeed: 90
   });
