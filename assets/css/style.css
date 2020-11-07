@@ -65,6 +65,7 @@ img{
     display: block;
     background-color: #905CA1;
     color: white;
+    position: relative;
     height: 500px;
 }
 .banner div{
